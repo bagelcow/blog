@@ -1,8 +1,8 @@
 ---
-title: Test post!
+title: Boilerplate post
 date: 2021/3/29
-description: The coolest post for testing
-tag: tag1
+description: The genesis of all
+tag: tag
 author: Leks
 ---
 
