@@ -2,8 +2,8 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'Leks\' Thoughts',
-    description: 'From music to movie opinions, Leks\' has a thought about it.',
+    title: '𝗟𝗘𝗞𝗦.𝗚𝗚',
+    description: 'Leks might have a thought about that.',
     image: 'https://i.imgur.com/09QxkZF.png'
   }
 
