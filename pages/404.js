@@ -3,9 +3,9 @@ import Link from 'next/link'
 export default function Custom404() {
 
     return <>
-    <h1>404 - Page not Found</h1>
+    <h1 style="text-align:center">404 - Page not Found</h1>
     <Link href="https://leks.gg">
-        <a>
+        <a style="text-align:center">
             Go to the main page
         </a>
     </Link>
