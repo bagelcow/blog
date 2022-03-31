@@ -1,7 +1,13 @@
 // pages/404.js
+import Link from 'next/link'
 export default function Custom404() {
 
-    let h1 = '<h1>404 - Page Not Found</h1>'
-    let a = '<a href="https://leks.gg">Main page</a>'
-    return h1, a
+    return <>
+    <h1>404 - Page not Found</h1>
+    <Link href="https://leks.gg">
+        <a>
+            Go to the main page
+        </a>
+    </Link>
+    </>
 }
