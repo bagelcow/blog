@@ -3,6 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   const meta = {
     title: '𝗟𝗘𝗞𝗦.𝗚𝗚',
+    site: 'Leks\' Personal Website',
     description: 'Leks might have a thought about that.',
     image: 'https://i.imgur.com/09QxkZF.png'
   }
@@ -12,7 +13,7 @@ export default function Document() {
       <Head>
         <meta name="robots" content="follow, index" />
         <meta name="description" content={meta.description} />
-        <meta property="og:site_name" content={meta.title} />
+        <meta property="og:site_name" content={meta.site} />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
